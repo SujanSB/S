@@ -174,9 +174,9 @@ nav .brand h1{
     }
 
 .slider{
-    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapertag.com%2Fwallpaper%2Ffull%2F5%2Fa%2F4%2F516277-new-programmer-wallpapers-2560x1440-for-tablet.jpg&f=1&nofb=1);
+    background-image: url(./images/goodbg.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     background-position: center;
     background-attachment: fixed;
 

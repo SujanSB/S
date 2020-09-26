@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $('.slider').ripples({
-        dropRadius: 10,
-        perturbance: 0.01,
+        dropRadius: 12,
+        perturbance: 0.001,
     
       });
 })
