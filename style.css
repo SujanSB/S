@@ -204,6 +204,9 @@ nav .brand h1{
         margin-top:20px;
         height: 120px;
         width: 120px;
+        object-fit: contain;
+        object-position: center;
+
     }
     
     .slider{
