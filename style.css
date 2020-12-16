@@ -174,7 +174,7 @@ nav .brand h1{
     }
 
 .slider{
-    background-image: url(./images/goodbg.jpg);
+    background:linear-gradient(45deg,rgb(1, 3, 14),cyan) ;
     background-size: cover;
     height: 100%;
     background-position: center;
@@ -366,8 +366,8 @@ nav .brand h1{
     }
     .slides .slide > a {
         padding-bottom: 1em;
-        font-size: 20px;
-        padding-right: 0;
+        font-size: 18px;
+        padding: 5px;
         
         margin-right: 0;
         text-transform: capitalize;
@@ -599,12 +599,14 @@ nav .brand h1{
     .blogs .blogs-content{
         display:inline-flex;
         flex-direction: column;
+        width: 100%;
+        margin:0;
     }
     .blogs .blogs-content .box{
-        width: 90%;
+        width: 98%;
         margin: auto;
         padding: 15px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         display: block;
         box-shadow: 0 0 20px rgba(1, 5, 17,0.8);
     }
