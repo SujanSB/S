@@ -199,6 +199,11 @@ nav .brand h1{
         flex-direction: row;
 
     }
+    .profile-image img{
+        margin-top:20px;
+        height: 120px;
+        width: 120px;
+    }
     
     .slider{
        overflow-x: hidden;
@@ -589,7 +594,7 @@ nav .brand h1{
 }
 
 .blogs .blogs-content .box a:hover{
-	color:#000000;
+	color:#fff;
 	border-color: #000000;
 }
 @media screen and (max-width:600px){
