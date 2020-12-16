@@ -130,7 +130,7 @@ nav .brand h1{
     background-color: rgb(1, 5, 17);
     color:#fff;
     transform: rotate(360deg);
-    transition: 2s ease-in-out;
+    transition: 0.5s ease-in-out;
   
   }
   .icons h2{
@@ -161,7 +161,7 @@ nav .brand h1{
   .card-bottom button:hover{
       background-color: rgb(5, 5, 5);
         color: #fff;
-        transition: 1s ease-in-out;
+        transition: 0.4s ease-in-out;
         border: 1px solid #f6f7f8;
     }
     .card-bottom a:hover{
@@ -366,7 +366,7 @@ nav .brand h1{
     }
     .slides .slide > a {
         padding-bottom: 1em;
-        font-size: 18px;
+        font-size: 16px;
         padding: 5px;
         
         margin-right: 0;
@@ -400,8 +400,8 @@ nav .brand h1{
       height:400px;
       object-position: center;
       object-fit: cover;
-      border-bottom-left-radius:45px;
-      border-top-right-radius:45px;
+      border-bottom-left-radius:50px;
+      border-top-right-radius:50px;
       
     }
     .abtme .right{
@@ -457,8 +457,8 @@ nav .brand h1{
       height:300px;
       object-position: center;
       object-fit: cover;
-      border-bottom-left-radius:25px;
-      border-top-right-radius:25px;
+      border-bottom-left-radius:27px;
+      border-top-right-radius:27px;
     }
     .edu{
         margin: 20px;
@@ -585,7 +585,7 @@ nav .brand h1{
 	display: inline-block;
 	text-align: center;
 	-webkit-transition: all .5s ease;
-	transition: all .5s ease;
+	transition: all .3s ease;
 }
 
 .blogs .blogs-content .box a:hover{
@@ -600,7 +600,7 @@ nav .brand h1{
         display:inline-flex;
         flex-direction: column;
         width: 100%;
-        margin:0;
+        margin-top:20px;
     }
     .blogs .blogs-content .box{
         width: 98%;
@@ -676,7 +676,7 @@ nav .brand h1{
     border-radius: 8px;
     text-transform: uppercase;
     font-size: 14px;
-    transition: 0.4s linear;
+    transition: 0.3s linear;
     cursor: pointer;
   }
   
@@ -695,11 +695,15 @@ nav .brand h1{
     display: none;
  }
   .nr{
-        
+        position: absolute;
+        bottom: 0;
       display:block;    
       text-align: center;
       font-size: 16px;
+      justify-content: center;
+      align-items: center;
       padding: 0;
+      align-items: center;
       color: skyblue;
   }
 
@@ -724,7 +728,6 @@ background: linear-gradient(to bottom,transparent,#fd1d1d,#833ab4);
         display: none;
     }
     .re{
-        margin: auto;
         justify-content: center;
         display: block;
         position: absolute;
