@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: antiquewhite;
+    background-color: black;
     font-family: 'Poppins', sans-serif;
     height: 100vh;
 }
@@ -37,7 +37,7 @@ nav .brand h1{
     justify-content: space-between;
 }
 .home{
-    width: 30%;
+    width: 32%;
     align-content: center;
     margin-left: 10px;
     margin-top: 30px;
@@ -194,7 +194,7 @@ nav .brand h1{
   
 @media screen and (max-width:768px){
     body{
-        height: max-content;
+        height: 100vh;
         display: flex;
         flex-direction: row;
 
@@ -210,6 +210,7 @@ nav .brand h1{
         align-items: center;
         justify-content: center;
         margin-bottom: 10;
+        position: relative;
         margin: 0;
         padding: 0;
         display:flex;
@@ -220,7 +221,6 @@ nav .brand h1{
     .home{
         width:100%;
         padding: 0;
-        
         margin:5px ;
         align-items: center;
         justify-content: center;
@@ -514,9 +514,7 @@ nav .brand h1{
 .blogs .blogs-content{
     display: flex;
     margin: 10px;
-    /* width: max-content;
-    overflow-y: hidden;
-    overflow-x: scroll; */
+   
 	justify-content: space-between;
 }
 
@@ -686,7 +684,7 @@ nav .brand h1{
   }
   
   
-  @media screen and (max-width:600px){
+  @media screen and (max-width:760px){
     .name,.email{
       width: 100%;
     }
