@@ -286,23 +286,23 @@ nav .brand h1{
 }
 .slides .slide:nth-child(1) {
     left: 0%;
-    background: transparent;
+    background: rgb(248, 57, 9);
      
 }
 .slides .slide:nth-child(2) {
     left: 25%;
 
-    background: transparent;
+    background: indigo;
 }
 .slides .slide:nth-child(3) {
     left: 50%;
      
-      background: transparent;
+      background: navy;
 }
 .slides .slide:nth-child(4) {
     left: 75%;
  
-    background: transparent;
+    background: green;
     
 }
 .slides .slide > a {
