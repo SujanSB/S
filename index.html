@@ -17,6 +17,7 @@
 </head>
 
 <body>
+<!-- onload='document.form1.email.focus()' -->
   <header class="slider">
     <nav>
       <div class="brand">
@@ -197,11 +198,12 @@
                 <div class="contact-section">
                   <div class="inner-width">
                     <h1>Get in touch with me</h1>
-                    <form method="POST" action="https://script.google.com/macros/s/AKfycbyxZby_W9uhSE_0m57rca7SODFcLPugyzc7St0qsI8U2UV4-lI/exec">
+                    <form method="POST" name="form1" action="https://script.google.com/macros/s/AKfycbyxZby_W9uhSE_0m57rca7SODFcLPugyzc7St0qsI8U2UV4-lI/exec">
+                    <!-- <form method="POST" name="form1" action="mailto:you@yourdmainhere.com"> -->
                       <input type="text" name="name" class="name" placeholder="Your Name" />
-                      <input type="email" name="email" class="email" placeholder="Your Email" />
+                      <input type="email" name="email"  class="email" placeholder="Your Email" />
                       <textarea rows="1" placeholder="Message" name="message" class="message"></textarea>
-                      <button>Get in touch</button>
+                      <button onclick="ValidateEmail(document.form1.email)">Get in touch</button>
                     </form>
                   </div>
                 </div>
@@ -238,6 +240,37 @@
       $(this).closest(".slide").addClass("active");
       return false;
     });
+  </script>
+  <script>
+      function ValidateEmail(inputText)
+{
+var mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+if(inputText.value.match(mailformat))
+{
+// alert("Valid email address!");
+// document.form1.email.focus();
+return true;
+}
+else
+{
+alert("You have entered an invalid email address!");
+// document.form1.email.focus();
+return false;
+}
+
+var empt1 = document.forms["form1"]["name"].value;
+var empt2 = document.forms["form1"]["message"].value;
+if (empt1 == "" || empt2 == "")
+{
+alert("Please input a Value");
+return false;
+}
+else 
+{
+// alert('Code has accepted : you can try another');
+return true; 
+}
+}
   </script>
 </body>
 
